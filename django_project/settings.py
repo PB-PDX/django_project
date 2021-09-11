@@ -29,10 +29,9 @@ SECRET_KEY = config['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['pbpdx.net',
-	'www.pbpdx.net',
-	'66.175.221.210'
-]
+
+ALLOWED_HOSTS = ['www.pbpdx.net', 'pbpdx.net', '66.175.221.210']
+
 
 
 # Application definition
