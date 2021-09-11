@@ -25,7 +25,7 @@ SECRET_KEY = 'exhlfdat&vfum(-34*c2uroi(($ww(yo$9pv98=e6p^gl(-eoj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.pbpdx.net', '66.175.221.210']
+ALLOWED_HOSTS = ['www.pbpdx.net', 'pbpdx.net', '66.175.221.210']
 
 
 # Application definition
