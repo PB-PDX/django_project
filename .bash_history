@@ -267,3 +267,132 @@ git status
 git add -A
 git commit -m "updates"
 git push
+sudo nano /etc/ssh/sshd_config
+exit() exit
+exit()
+sudo nano /etc/ssh/sshd_config
+exit() exit
+ls -la
+mkdir .gitignore
+cd .gitignore
+touch .ssh
+ls
+ls -la
+touch ~/.ssh/
+ls -la
+cd .ssh
+cd 
+cd .ssh
+ssh-keygen
+ls
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa
+eval "$(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa.pub
+
+ls
+exit
+ssh-add id_rsa.pub
+exit()
+ls
+ssh-add ~/.ssh/id_rsa.pub
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa.pub
+sudo chmod 600 ~/.ssh
+sudo chmod 755 ~/.ssh
+~/.ssh$ ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_rsa
+git status
+cd
+ls
+ls -la
+rmdir /s .gitignore
+rmdir /s .gitignore
+rmdir /S .gitignore
+ls -la
+rmdir /s gitignore
+cd .gitignore
+ls
+ls -la
+cd 
+touch .gitignore
+ls -la
+cd .gitignore
+ls -la
+touch ~/.ssh
+ls -la
+cd
+git status
+ls
+cd django_project
+ls
+cd
+ls
+sudo nano .gitignore
+ls -la
+rmdir /s .gitignore
+rmdir .gitignore
+rmdir /S .gitignore
+touch .gitignore
+sudo nano .gitignore
+cd .gitignore
+ls -la
+rmdir .ssh
+rm .ssh
+ls -la
+rm .
+rm ..
+ls -la
+cd
+rmdir .gitignore
+ls -la
+touch .gitignore
+sudo nano .gitignore
+sudo nano .gitignore
+git status
+sudo nano .gitignore
+git status
+git rm -r --cached .ssh/id_rsa
+git status
+ls -la
+cd .ssh
+ls -la
+cd 
+git rm -r --cached .ssh/id_rsa.pub, db.sqlite3
+git rm -r --cached [.ssh/id_rsa.pub, db.sqlite3]
+git rm -r --cached .ssh/id_rsa.pub
+git rm -r --cached db.sqlite3
+ls -la
+git status
+sudo nano .gitignore
+git add -A
+git commit -m "updated setting"
+git push
+ssh-add -L
+sudo nano ~/.ssh/config
+sudo nano .ssh/config
+ls -la
+cd .ssh
+ls
+rm id_rsa
+ls
+git status
+cd authorized_keys
+sudo nano authorized_keys
+git status
+cd
+sudo nano .gitignore
+git rm -r --cached authorized_keys
+git rm -r --cached authorized_keys
+cd .ssh
+ls
+git rm -r --cached authorized_keys
+git status
+cd
+git status
+git push
+git add -A
+git commit -m "updates to .gitignore"
+git push
+rmdir /s .gitignore
+rmdir /S .gitignore
