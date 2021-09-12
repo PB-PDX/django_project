@@ -204,3 +204,66 @@ cd authorized_keys
 sudo nano /etc/authorized_keys
 cd ..
 exit()
+git status
+git add -A
+git commit -m "working server"
+git config --global user.email "pat.joseph.barry@gmail.com"
+git config --global user.name "PB-PDX"
+git push
+git remote -v
+eval "$(ssh-agent -s)"
+git push
+ssh-add ~/.ssh/authorized_keys
+ls -la
+cd .ssh
+lks
+ls
+ssh-add ~/.ssh/authorized_keys
+~/.ssh/config
+/.ssh/config
+cd
+/.ssh/config
+~/.ssh/config
+ssh-add
+eval "$(ssh-agent)"
+ssh-agent /bin/sh
+git push
+git config --list
+git remote -v
+git push
+git push --set-upstream origin master
+git push --set-upstream origin master
+git push
+git pull
+git pull
+git remote -v
+git pull 
+git pull origin main
+git push
+Git remote -v
+git remote -v
+git remote set-url origin git@github.com:PB-PDX/django_project.git
+git remote -v
+git pull
+git push origin master
+git push
+git push
+sudo nano /etc/authorized_keys
+git push
+ssh -vvv
+ssh-add
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/authorized_keys
+ssh-add
+about
+IP
+git pull
+cat ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+git status
+git pull
+sudo nano /etc/setting.py
+git status
+git add -A
+git commit -m "updates"
+git push
