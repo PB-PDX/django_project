@@ -1,13 +1,3 @@
-git status
-git pull
-sudo nano /etc/setting.py
-git status
-git add -A
-git commit -m "updates"
-git push
-sudo nano /etc/ssh/sshd_config
-exit() exit
-exit()
 sudo nano /etc/ssh/sshd_config
 exit() exit
 ls -la
@@ -497,4 +487,14 @@ sudo systemctl start apache2
 sudo ufw disable
 sudo restart
 sudo reboot
+exit
+git status
+git add -A
+git commit -m "updates"
+git push
+chmod 400 key.pem
+cd .ssh
+ls
+chown patrick:patrick -R
+chown patrick:patrick -R *
 exit
