@@ -1,189 +1,3 @@
-
-sudo nano authorized_keys
-sudo nano authorized_keys
-sudo nano /etc/ssh/sshd_config
-sudo nano /etc/ssh/sshd_config
-sudo systemctl restart sshd
-cd
-sudo ufw status
-eval `ssh-agent -s`
-sudo systemctl restart sshd
-sudo reboot
-service ssh restart
-sudo ufw allow "Nginx Full"
-sudo ufw status
-sudo ufw allow proto tcp from any to any port 80,443
-scp ~/.ssh/id_rsa.pub patrick@66.175.221.210:~
-scp ~/.ssh/id_rsa.pub patrick@66.175.221.210:~/.ssh/authorized_keys
-scp ~/.ssh/id_rsa.pub patrick@66.175.221.210:~/.ssh/authorized_keys
-ls
-python3 manage.py runserver
-chmod 700 ~/.ssh
-chmod 600 ~/.ssh/authorized_keys
-ls
-cd
-nano /etc/ssh/sshd_config
-nano /etc/ssh/sshd_config
-sudo nano /etc/ssh/sshd_config
-sudo systemctl restart sshd
-ls -la
-cd django_project
-ls
-sudo nano /etc/django_project/settings.py
-sudo nano django_project/settings.py
-sudo nano /etc/config.conf
-sudo nano /etc/ssh/sshd_config
-sudo nano /etc/ssh/sshd_config
-sudo service apache2 restart
-sudo nano /etc/ssh/sshd_config
-sudo chmod 700~/.ssh/
-sudo chmod 700 ~/.ssh/
-sudo chmod 600 ~/.ssh/*
-sudo nano /etc/ssh/sshd_config
-sudo systemctl restart sshd
-sudo nano /etc/ssh/sshd_config
-
-sudo systemctl sudo service apache2 restart
-sudo apt update
-sudo apt upgrade
-ssh-add -L
-ssh run
-eval "$(ssh-agent -s)
-exec ssh-agen
-exec ssh-agent
-exec ssh-agent
-ls -la
-sudo gedit /var/log/apache2/error.log
-sudo gedit /var/log/apache2/error.log
-cd /var/www/html
-ls
-ls -la
-sudo nano index.html
-exit
-grep -i 'DocumentRoot' /etc/apache2/sites-available/000-default.conf
-grep -i 'DocumentRoot' /etc/apache2/sites-available/default-ssl.conf
-ls -la
-cd django_project
-ls -la
-sudo /etc/ssh/sshd_config
-sudo /etc/.ssh/sshd_config
-sudo nano /etc/.ssh/sshd_config
-sudo nano /etc/ssh/sshd_config
-sudo systemctl restart sshd
-sudo nano /etc/ssh/sshd_config
-ls -la
-ls –ld authorized_keys
-cd .ssh
-ls –ld authorized_keys
-ls –la authorized_keys
-ls -la
-ls -ld
-ls
-ls –ld authorized_keys
-sudo systemctl restart sshd
-cd
-sudo chown patrick:patrick /home/patrick/ -R
-sudo chmod o-rwx /home/patrick/ -R
-sudo chmod -R 775 /path/to/webroot/directory
-ls -la
-sudo systemctl restart apache2
-sudo nano /etc/apache2/apache2.conf
-cd /etc/apache2/sites-available/
-ls
-sudo cp 000-default.conf Portfolio.conf
-sudo nano cp 000-default.conf Portfolio.conf
-sudo chmod o-rwx /home/root/ -R
-cd
-ls
-ls -la
-cd home
-cd ~/
-sudo nano /etc/apache2/apache.conf
-sudo nano /etc/apache2/apache2.conf
-sudo nano 000-default.conf/h
-cd /etc/apache2/sites-available/
-ls
-nano 000-defualt.conf
-cd 000-default.conf
-cd
-grep -R "DocumentRoot"/etc/apache2/sites-enabled
-sudo nano /etc/apache2/sites-enabled/mydomain.com.conf
-sudo nano /etc/apache2/sites-enabled/pbpdx.com.conf
-sudo vim /etc/apache2/apache2.conf
-sudo vim /etc/apache2/apache2.conf
-sudo vim /etc/apache2/sites-enabled/000-default
-/etc/apache2/sites-enabled/000-default
-systemctl restart apache2
-sudo nano /etc/apache2/sites-available/000-default.conf
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDA0voCOnAIoEVxlv9P5XQmOQrNzYWEQQitZGTzDE05/6Mw3qPxF6QQ1NH38Hb+uod4GpSjOsTMeuF8cFrCs9erCdKxTGwQ326Ya7F0q3v/9mUqQDkmh/ZLR5oxkxo+cTitut+EwkUFs3GUZ4mU6XnkoA7gkKH8nwB1AxgQoee241HvcjSfnyHg8rGMf1EWM+GxHkOEqXDmjs9N5w5RO+Pg7BmM5P02za4y+7Sl+ffuLzYZpwLvQteHY1lHbn3gU3ulOaFtzfuGK8kAJqc+FbQj1QcYw+CNia3ZKRRmnVNedPAFy7NiEM3C5oqx3KQQ6M34dNv9jCS/QW5gK4N4G2c3 rsa-key-20210911
-sudo -i. sudo -s
-sudo chmod -R 775 /var/www/html
-sudo chmod o-rwx /home/root/ -R
-systemctl restart apache2
-cd /var/www
-chown -R www-data: html/
-usermod -a -G www-data patrick
-chown -R www-data: {.??,}*
-cd
-chown -R www-data: {.??,}*
-systemctl restart apache2
-sudo chmod o-rwx /home/patrick/ -R
-systemctl restart apache2
-sudo enable ufw
-sudo ufw enable
-sudo ufw status
-sudo nano django_project/settings.py
-sudo nano /etc/apache2/sites-available/000-default.conf
-sudi a2ensite django_project
-sudo a2ensite django_project
-sudo chown :www-data django_project/db.sqlite3
-sudo chmod 664 django_project/db.sqlite3
-sudo chown :www-data django_proeject/
-sudo chown :www-data django_proeject
-ls -la
-sudo chown -R patrick:www-data /var/www/html
-systemctl restart apache2
-sudo find /var/www/html -type d -exec chmod 755 {} \;
-sudo find /var/www/html -type f -exec chmod 644 {} \;
-sudo systemctl restart apache2.service
-vim /etc/apache2/apache2.conf
-sudo chown -R apache:apache /var/www/html/*
-chown -R apache:apache /var/www/html/*
-ps aux | grep -i apache
-chown -R www-data: /var/www/html/
-chown -R root: /vaw/www/html/
-chown -R patrick: /vaw/www/html/
-ps aux | grep apache
-sudo vi /etc/apache2/apache2.conf
-sudo vi /etc/apache2/apache2.conf
-sudo nano /etc/apache2/envvars
-sudo nano /etc/apache2/envvars
-sudo chown --recursive www-data:www-data /var/www/html/
-sudo chown --recursive www-data:www-data /var/www/html
-sudo systemctl restart apache2.service
-
-ps aux | grep apache
-sudo nano /etc/ssh/sshd_config
-sudo systemctl restart apache2.service
-sudo find /var/www/html -type d -exec chmod 755 {} \;
-sudo chmod o-rwx /home/patrick/ -R
-top
-sudo systemctl start apache2
-top
-sudo systemctl restart apache2
-sudo apt-get install apache2
-sudo apt-get -o DPkg::Options::="--force-confmiss" --reinstall install apache2.2-common
-sudo apt-get install apache2
-hostname
-nano /etc/hosts
-pwd
-cd /etc/apache2/sites-available/
-ls
-sudo nano django_project.conf
-sudo nano 000-default.conf
-sudo a2ensite django_project
-sudo a2dissite 000-default.conf
-sudo chown :www-data django_project/db.sqlite3
 sudo chown :www-data ~/db.sqlite3
 sudo chmod 664 ~/db.sqlite3
 sudo shown :www-data django_project/
@@ -499,3 +313,188 @@ chmod -R 740 ~/.ssh/
 sudo systemctl restart sshd
 exit
 exit
+git status
+git add -A
+git commit -m "updates"
+git push
+git push
+git pull
+git push
+git push
+start-ssh-agent
+git push
+ssh -T git@github.com
+ls -la
+cd .ssh
+ls -la
+cd
+cd .ssh
+ls -la
+touch ~/config
+ls -la
+touch conifg
+ls -la
+rm config
+cd
+eval "$(ssh-agent -s)"
+ssh -T git@github.com
+ssh-add -L
+echo $SSH_AUTH_SOCKET
+ssh
+ssh-agent
+eval `ssh-agent`
+echo $SSH_AGENT_SOCK
+ssh -T git@github.com
+sudo nano /etc/ssh/sshd_config
+echo "$SSH_AUTH_SOCK"
+ssh -T git@github.com
+sudo nano /etc/ssh/sshd_config
+ssh -T git@github.com
+echo "$SSH_AUTH_SOCK"
+cd .ssh
+echo "$SSH_AUTH_SOCK"
+ssh-agent
+echo "$SSH_AUTH_SOCK"
+ssh-add -L
+ssh -v example.com
+cat /etc/ssh_config
+cat ~/etc/ssh_config
+ssh -v example.com
+cat /etc/ssh_config
+cd
+cat /etc/ssh_config
+sudo nano /etc/ssh/sshd_config
+sudo nano /etc/ssh/ssh
+ssh-add -L
+eval `ssh-agent -s`
+ssh-add -L
+ssh -T git@github.com
+ssh-add -l
+ssh-add -A
+ssh-add -T
+ssh-add ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/ZwS5Zzpmxp2ifs6izKysvL8mBnxiNXTcuSIFONdnmUEJQSUIewEbkaTR8Ckv4XR1LPePNjrAGZp2kRMUp/2C5kMM2pITozofbOu/4Z7dpQxfPTKml794POU7AreVFMOpRsuvrrbap5BPA/MuUs8TnldNOcgu2Uvqjq5VTWEXRSwr4clZfrodFf6FXaVWYoBoLeN6SeXGBO8cN9xWyBm1jGADmyoHV+TnXE/8Yh7n4wG2g2CuiV3EpeCLE9V6u5Ml5O6CprtM242RRw/V8qnx+TI14b8W2/YJKRkVaeEq9mE8ro0fz4aqWRo+/pEkVgcII5tVgGZ2IYuIncIMY+YmjU/FKlEz+GqzxpbyFvSJ0RuSIXzMzyRLaHyMqZGLktf/gduQ216PzCPGrT1vJXFMRW01aVXSZw8LUdhZv05rYQEXluebE82XmFNEmqDgE6PzyFsw3P2u+rrJaZ7tQog3N+ptjId/TPOA6QvPj/x//Ezx6H9cpf0qUUuLUBv/QJU= patjo@Jarvice
+ssh-add ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/ZwS5Zzpmxp2ifs6izKysvL8mBnxiNXTcuSIFONdnmUEJQSUIewEbkaTR8Ckv4XR1LPePNjrAGZp2kRMUp/2C5kMM2pITozofbOu/4Z7dpQxfPTKml794POU7AreVFMOpRsuvrrbap5BPA/MuUs8TnldNOcgu2Uvqjq5VTWEXRSwr4clZfrodFf6FXaVWYoBoLeN6SeXGBO8cN9xWyBm1jGADmyoHV+TnXE/8Yh7n4wG2g2CuiV3EpeCLE9V6u5Ml5O6CprtM242RRw/V8qnx+TI14b8W2/YJKRkVaeEq9mE8ro0fz4aqWRo+/pEkVgcII5tVgGZ2IYuIncIMY+YmjU/FKlEz+GqzxpbyFvSJ0RuSIXzMzyRLaHyMqZGLktf/gduQ216PzCPGrT1vJXFMRW01aVXSZw8LUdhZv05rYQEXluebE82XmFNEmqDgE6PzyFsw3P2u+rrJaZ7tQog3N+ptjId/TPOA6QvPj/x//Ezx6H9cpf0qUUuLUBv/QJU= patjo@Jarvice
+ssh -T git@github.com
+sudo systemctl restart sshd
+eval `ssh-agent -s`
+ssh -T git@github.com
+ssh -vT git@github.com
+ssh -T pb-pdx@github.com
+ssh -T git@github.com
+ssh -vT git@github.com
+ls -la
+cd .ssh
+ls -la
+ssh-add -l -E sha256
+ssh-add -l -E sha256
+ssh-add -l -E sha256
+ssh-add -l
+cd
+chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
+ssh-add -l
+chown -R patrick /home/patrick/.ssh
+ls -la
+chown -R patrick:patrick /home/patrick/.ssh
+chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
+ssh-add -l
+cd .ssh
+ls
+sudo nano authorized_keys
+ssh-add -l
+git remote -v
+ls -la
+cd
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+ls -la
+cd .ssh
+ls -la
+rm conifg
+ls -la
+
+ssh-add -l
+cd
+ssh-agent -s
+ssh-add -l -E sha256
+
+ssh-add
+echo $?
+man ssh-add
+ssh -T git@github.com
+ssh -T git@github.com
+ssh -T git@github.com
+git status
+git push
+ls la
+ls -la
+cd django_project
+ls -la
+ls
+cd blog
+ls
+cd templates
+ls
+cd blog
+ls
+nano base.html
+nano base.html
+cd 
+sudo reboot
+apt-get update
+sudo apt-get update
+sudo apt-get upgrade
+Resume
+sudo apt-get update
+sudo apt-get upgrade
+ssh -T git@github.com
+ls -la
+cd django_project
+ls
+cd blog
+cd templates/blog
+ls
+cd ../..
+cd ..
+ls
+cd
+ls
+cd django_project
+ls
+sudo nano settings.py
+ls
+cd venv
+ls
+ls -la
+cd include
+ls -la
+cd .
+ls
+cd ..
+ls
+cd ..
+ls
+cd 
+ls
+collectstatic
+ python manage.py collectstatic
+ python3 manage.py collectstatic
+cd blog/templates/blog
+ls -la
+sudo restart
+cd
+restart
+git pull origin main
+cd blog/templates/blog
+nano base.html
+nano base.html
+nano base.html
+cd
+sudo reboot
+nano base.html
+cd blog/templates/
+nano base.html
+ls
+cd blog
+ls
+nano base.html
+sudo reboot
