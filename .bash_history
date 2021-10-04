@@ -1,56 +1,3 @@
-git push
-chmod 400 key.pem
-cd .ssh
-ls
-chown patrick:patrick -R
-chown patrick:patrick -R *
-exit
-grep ^www-data /etc/group
-ls -lha
-chmod 777 ~/
-ls -lha
-exit
-sudo systemctl restart sshd
-sudo nano /etc/ssh/sshd_config
-eval `ssh-agent -s`
-sudo service ssh restart
-chmod go-w ~/
-chmod 700 ~/.ssh
-chmod 600 ~/.ssh/authorized_keys
-git add -A
-git commit -m "changed settings"
-git push
-cd
-sudo chown -R www-data:www-data /var/www/html 
-sudo chmod -R 755 /var/www/html
-sudo chmod -R 775 /var/www/html
-sudo usermod -aG www-data patrick
-sudo -l
-ls -la
-tail -100 /var/log/apache2/error.log
-sudo usermod -aG adm patrick
-tail -100 /var/log/apache2/error.log
-sudo nano /etc/hosts
-sudo nano /etc/apache2/apache2.conf
-sudo systemctl restart apache2
-systemctl restart apache2
-sudo apachectl fullstatus
-sudo nano /etc/apache2/sites-available/django_project
-cd /etc/apache2/sites-available
-ls
-
-systemctl restart apache2
-sudo apachectl fullstatus
-allow from www.pbpdx.net
-cd
-ls -la
-sudo chmod -R 775 ~/
-ls -la
-sudo chmod 755 ~/.ssh/authorized_keys
-sudo nano /etc/ssh/sshd_config
-chmod -R ~/.ssh
-sudo chmod -R ~/.ssh
-mkdir -p ~/.ssh
 ls -la
 chmod -R go= ~/.ssh
 sudo systemctl restart sshd
@@ -498,3 +445,56 @@ sudo nano /etc/ssh/ssh
 sudo nano /etc/ssh/sshd_config
 exit() exit
 quit() quit
+sudo service ssh restart
+ssh-agent
+ssh add -l
+ssh-add -l
+git status
+ssh-add -l
+ls
+ls -la
+cd .ssh
+ls
+cd authorized_keys
+nano authorized_keys
+cd
+sudo service ssh restart
+ssh-agent -l
+ssh-agent
+ssh-add -l
+nano ~/.ssh/known_hosts
+ssh-agent
+ssh-add
+sudo nano /etc/ssh/sshd_config
+sudo service ssh restart
+ssh-add -L
+nano .gitignore
+git add -A
+git commit -m "sql data"
+git push
+git add -A
+git commit -m "server side"
+git push
+git pull
+sudo reboot
+ls
+cd blog/templates/blog
+ls
+nano base.html
+git status
+cd
+git status
+git pull origin main
+cd blog/templates/blog
+nano base.html
+sudo reboot
+git pull origin main
+git pull
+sudo reboot
+git pull origin main
+git pull
+sudo reboot
+git pull origin main
+sudo reboot
+git pull origin main
+sudo reboot

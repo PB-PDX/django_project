@@ -27,7 +27,7 @@ class SearchResultsView(ListView):
         query = self.request.GET.get('q')
 
         object_list = Post.objects.filter(
-            Q(title__icontains=query) | Q(content__icontains=query) | '-date_posted'
+            Q(title__icontains=query) | Q(content__icontains=query)
         )
         object_list = object_list.order_by('-date_posted')
         return object_list
