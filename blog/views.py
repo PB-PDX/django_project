@@ -1,4 +1,5 @@
 from django.shortcuts import render, get_object_or_404
+from django.db.models import Q
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.auth.models import User
 from django.views.generic import (
@@ -17,6 +18,18 @@ def home(request):
     }
     return render(request, 'blog/home.html', context)
 
+class SearchResultsView(ListView):
+    model = Post
+    template_name = 'blog/search_results.html'
+    context_object_name = 'posts'
+
+    def get_queryset(self):  # new
+        query = self.request.GET.get('q')
+
+        object_list = Post.objects.filter(
+            Q(title__icontains=query) | Q(content__icontains=query)
+        )
+        return object_list
 
 class PostListView(ListView):
     model = Post
