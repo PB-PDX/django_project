@@ -1,70 +1,3 @@
-sudo chown :www-data ~/db.sqlite3
-sudo chmod 664 ~/db.sqlite3
-sudo shown :www-data django_project/
-sudo chown :www-data django_project/
-sudo chown :www-data ~/
-ls -la
-cd
-ls -la
-sudo chown -R :www-data ~/media
-sudo chmod -R 775 ~/media
-ls -la
-sudo nano /etc/config.json
-sudo ufw allow http/tcp
-sudo service apache2 restart
-ls -la
-sudo service apache2 stop
-sudo apt-get purge apache2 apache2-utils apache2.2-bin apache2-common
-sudo apt-get autoremove
-whereis apache2
-sudo rm -rf /usr/sbin/apache2 /usr/lib/apache2 /etc/apache2 /usr/share/apache2 /usr/share/man/man8/apache2.8.gz
-sudo rm -rf /usr/sbin/apache2 
-sudo apt-get purge apache2 apache2-utils apache2-bin apache2.2-common
-apache2
-sudo apt install apache2
-sudo apt-get install libapache2-mod-wsgi-py3
-cd /etc/apache2/sites-available/
-ls
-sudo cp 000-default.conf django_project.conf
-sudo nano django_project.conf
-sudo a2ensite django_project.conf
-sudo a2dissite 000-default.conf
-sudo chown :www-data ~/db.sqlite3
-sudo chmod 664 ~/db.sqlite3
-sudo chown :www-data ~/
-ls -la
-cd
-ls -la
-sudo service apache2 restart
-sudo service apache2 restart
-sudo service apache2 restart
-apache status
-sudo apt install apache2
-sudo apt install apache2-bin
-sudo apt install apache2-bin
-sudo service apache2 restart
-systemctl status apache2.service
-netstat -plant | grep 80
-sudo apt install net-tools
-netstat -plant | grep 80
-restart
-/var/log/apache2/error.log
-sudo /var/log/apache2/error.log
-sudo nano /var/log/apache2/error.log
-ps ax | grep apache
-sudo lsof -i -P -n | grep LISTEN.
-sudo lsof -i:80
-
-systemctl status apache2.service
-sudo service apache2 restart
-apache2ctl -S
-momurda
-Habanero
-momurda
-Aug 13, 2019 at 12:08 PM
-try
-sudo systemctl start apache2
-That will probably error, then do
 journalctl -xemomurda
 Habanero
 momurda
@@ -497,4 +430,71 @@ ls
 cd blog
 ls
 nano base.html
+sudo reboot
+git pull
+git pull origin main
+git add -A
+git commit -m "stashed changes before implementing new ones for width"
+git push
+git pull
+git pull origin main
+git stash
+git stash
+git stash
+git pull origin main
+git commit -m "storing before changes"
+git push
+git pull origin main
+git pull origin main
+git reset --hard ddd24cb
+git status
+git pull origin main
+git pull
+git status
+git add blog/templates/blog/base.html
+git status
+git pull
+git reset --hard HEAD
+git reset --hard HEAD
+git reset --hard HEAD ddd24cb3
+git status
+git pull
+git pull origin main
+git pull origin main
+git status
+git merge --abort
+git status
+git pull
+git pull origin main
+git status
+git commit 
+git commit -m "server"
+git add blog/templates/blog/base/html
+ls
+ls -la
+git add -A
+git commit -M "updates"
+git push
+git status
+git add -A
+git commit -m "sus"
+git push
+git pull
+git pull origin main
+git push
+git pull
+git status
+git add blog/templates/blog/base.html
+git status
+git add -A
+git commit -m "updatse"
+git push
+git pull origin main
+git pull
+cd blog/templates/blog
+ls
+nano base.html
+sudo reboot
+git pull
+git pull origin main
 sudo reboot

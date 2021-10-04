@@ -15,5 +15,6 @@ lib64/
 .ssh/id_rsa         
 .ssh/id_rsa.pub         
 db.sqlite3
-.bash_history
+~/.bash_history
 authorized_keys
+.bash_history
