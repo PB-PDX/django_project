@@ -1,9 +1,9 @@
 .ssh 
-.sqlite 
-.sql
+ 
+
 .env
 .venv
-db.sqlite3
+
 local_settings.py
 .cache
 var/
@@ -14,7 +14,7 @@ lib64/
 .bash_history            
 .ssh/id_rsa         
 .ssh/id_rsa.pub         
-db.sqlite3
+
 ~/.bash_history
 authorized_keys
 .bash_history
