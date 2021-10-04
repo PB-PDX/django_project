@@ -1,25 +1,3 @@
-journalctl -xemomurda
-Habanero
-momurda
-Aug 13, 2019 at 12:08 PM
-try
-sudo systemctl start apache2
-That will probably error, then do
-journalctl -xe
-apachectl -t
-apachectl -h
-apache2ctl configtest
-apache2ctl -S 
-sudo -i
-sudo ufw status
-sudo systemctl start apache2
-sudo ufw disable
-sudo restart
-sudo reboot
-exit
-git status
-git add -A
-git commit -m "updates"
 git push
 chmod 400 key.pem
 cd .ssh
@@ -498,3 +476,25 @@ sudo reboot
 git pull
 git pull origin main
 sudo reboot
+git status
+git add -A
+ls -la
+nano .gitignore
+git status
+git restore .bash_history
+git status
+git restore --staged .bash_history
+git status
+nano .gitignore
+ls -la
+git status
+git rm -r .bash_history
+git status
+git add -A
+git commit -m "server side updates"
+git push
+sudo nano settings.py
+sudo nano /etc/ssh/ssh
+sudo nano /etc/ssh/sshd_config
+exit() exit
+quit() quit
