@@ -1,11 +1,3 @@
-ls -la
-chmod -R go= ~/.ssh
-sudo systemctl restart sshd
-chmod 700 ~/.ssh
-chmod 600 ~/.ssh
-ls-la
-ls -la
-sudo systemctl restart sshd
 ps aux | grep sshd
 netstat -plant | grep :22
 telnet localhost 22
@@ -498,3 +490,11 @@ git pull origin main
 sudo reboot
 git pull origin main
 sudo reboot
+cd blog
+ls
+nano views.py
+cd
+sudo service apache2 restart
+git add -A
+git commit -m "manuall changes"
+git push
